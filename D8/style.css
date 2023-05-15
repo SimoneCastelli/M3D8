@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.container-fluid img {
+    height: 3.6rem;
+}
+
+#avatar {
+    height: 2rem;
+}
+
+:root {
+	--nero-personal: #1a1a1a;
+}
+
+.bg-custom {
+    background-color: var(--nero-personal);
+}
+.custom-bold {
+    font-weight: 700;
+}
+
+.text-secondary {
+    color: gray;
+}
+
+.text-secondary:hover {
+    transition: all;
+    color: rgb(161, 157, 157);
+}
+.hover-img:hover{
+    transform: 0.2s;
+}
+
+.hover-img:hover {
+    
+    transition: 0.4s ease-in-out;
+    transform: scale(1.2);
+}
+
+/* @media screen and (max-width: 576px) {
+
+} */
